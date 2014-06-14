@@ -1,0 +1,25 @@
+//-----------------------------------------------------------------------------
+// specific components
+//-----------------------------------------------------------------------------
+
+ 
+$popup-box-width: 250px;
+$popup-box-height: 135px;
+$popup-icon-height: 35%;
+
+.popup-box {
+  display: none;
+  width: $popup-box-width;
+  height: $popup-box-height;
+  background-color: $notification-box-background-color;
+  box-sizing: border-box;
+  padding: 10px;
+
+  position: absolute;
+  top: 50%;
+  margin-top: -$notification-box-height/2;
+  left: 50%;
+  margin-left: -$notification-box-width/2;
+  z-index: 100010;
+  border: 1px solid $notification-box-border-color;
+}

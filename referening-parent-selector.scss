@@ -1,0 +1,37 @@
+ul{
+	li{
+ 		//reference html5 data attributes  
+	    &[role="heading"]{
+
+	    }
+
+        // style states        
+	    &:hover,
+	    &:focus{
+
+	    } 
+	    &:active{
+
+	    }
+ 
+       // style when has class of  
+	    &.loading{   
+	    }
+
+       //handle pseudo elements styling
+	    &:before,
+	    &:after{ 
+	    }
+
+		//reference new css3 properties
+	    &::-webkit-input-placeholder {
+            
+        }  
+        &:not([class*="content"]){
+
+        }
+   		&[disabled=disabled] {
+
+        }
+	}
+}

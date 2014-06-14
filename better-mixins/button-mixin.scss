@@ -1,0 +1,42 @@
+@mixin button(){
+  width: 100%;
+  font-weight: normal;
+  border: none;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  padding: 0.5em 1em;
+  margin: 0;  
+  &[disabled=disabled] {
+    opacity: 0.3;
+  }
+}
+ 
+
+@mixin primaryButton(){
+  @include button();  
+  &:active { 
+  }
+  &:hover { 
+  }
+  &:focus{ 
+  }
+}
+
+@mixin secondaryButton(){
+  @include button();  
+  &:active { 
+  }
+  &:hover { 
+  }
+  &:focus{
+  	
+  }
+}
+ 
+.primary-btn{ 
+	@include primaryButton();    
+}
+
+.secondary-btn{ 
+	@include secondaryButton();    
+}

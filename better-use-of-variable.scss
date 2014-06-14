@@ -1,0 +1,58 @@
+
+//-----------------------------------------------------------------------------
+// Images  
+//-----------------------------------------------------------------------------
+
+$accounts-list-grid-icon: 'product/images/tool-icons/accounts_list_grid.png' !default;
+$accounts-edit-icon: 'product/images/accounts_edit_icon.png' !default;
+$accounts-edit-icon-white: 'product/images/accounts_edit_icon_white.png' !default;
+
+
+
+//-----------------------------------------------------------------------------
+// Colours
+//-----------------------------------------------------------------------------
+
+
+$color-base: #ffffff !default;
+$color-baseR: 0 !default;
+$color-baseG: 87 !default;
+$color-baseB: 53 !default;
+$color-baseL: #333333 !default;
+$color-label: #1A4057 !default;
+
+$color-bg: #53869D !default;
+$color-bg-lightGreen: #BFCEC8 !default;
+$main-font-color: #ffffff !default;
+$color-menu-bg: #4F869F !default;
+$color-border: #173F59 !default;
+$color-text-bg: #51869E !default;
+$color-list-bg: #333333 !default;
+
+//-----------------------------------------------------------------------------
+// specific module of components
+//-----------------------------------------------------------------------------
+
+
+// popup.scss
+
+$popup-box-width: 250px;
+$popup-box-height: 135px;
+$popup-icon-height: 35%;
+
+.popup-box {
+  display: none;
+  width: $popup-box-width;
+  height: $popup-box-height;
+  background-color: $notification-box-background-color;
+  box-sizing: border-box;
+  padding: 10px;
+
+  position: absolute;
+  top: 50%;
+  margin-top: -$notification-box-height/2;
+  left: 50%;
+  margin-left: -$notification-box-width/2;
+  z-index: 100010;
+  border: 1px solid $notification-box-border-color;
+}
