@@ -1,0 +1,45 @@
+$color-base: #ffffff !default;
+$color-baseR: 0 !default;
+$color-baseG: 87 !default;
+$color-baseB: 53 !default;
+$color-baseL: #333333 !default;
+$color-label: #1A4057 !default;
+
+$color-bg: #53869D !default;
+$color-bg-lightGreen: #BFCEC8 !default;
+$main-font-color: #ffffff !default;
+$color-menu-bg: #4F869F !default;
+$color-border: #173F59 !default;
+$color-text-bg: #51869E !default;
+$color-list-bg: #333333 !default;
+
+
+//http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
+/*
+$_color-base-grey: rgb(229,231,234);
+
+$palettes: (
+    purple: (
+        base:   rgb(42,40,80),
+        light:  rgb(51,46,140),
+        dark:   rgb(40,38,65)
+    ),
+    grey: (
+        base:  $_color-base-grey,
+        light: lighten($_color-base-grey, 10%),
+        dark: darken($_color-base-grey, 10%)
+    )
+);
+ 
+@function palette($palette, $tone: 'base') {
+    @return map-get(map-get($palettes, $palette), $tone);
+}
+
+ USAGE
+		a {
+		    color: palette(purple);
+		    &:hover {
+		        color: palette(purple, light);
+		    }
+		}
+*/

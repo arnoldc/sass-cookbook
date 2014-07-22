@@ -1,4 +1,4 @@
-sass-cookbook
+Sass Cookbook
 =============
 
-Ideas for making use of SASS utilities and abstraction tools
+Recipes for making use of SASS utilities and abstraction tools

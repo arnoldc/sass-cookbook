@@ -1,0 +1,29 @@
+/* line 36, ../../scss/better-mixins/button-mixin.scss */
+.primary-btn {
+  width: 100%;
+  font-weight: normal;
+  border: none;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+/* line 9, ../../scss/better-mixins/button-mixin.scss */
+.primary-btn[disabled=disabled] {
+  opacity: 0.3;
+}
+
+/* line 40, ../../scss/better-mixins/button-mixin.scss */
+.secondary-btn {
+  width: 100%;
+  font-weight: normal;
+  border: none;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+/* line 9, ../../scss/better-mixins/button-mixin.scss */
+.secondary-btn[disabled=disabled] {
+  opacity: 0.3;
+}

@@ -1,0 +1,41 @@
+
+//http://www.smashingmagazine.com/2014/06/12/sassy-z-index-management-for-complex-layouts/?utm_source=CSS-Weekly&utm_campaign=Issue-115&utm_medium=RSS
+
+/*
+$elements: project-covers, user-tooltip, sorting-bar, modals, navigation;
+$modal-elements: fields, form-controls, errors, autocomplete-dropdown;
+
+.modal {
+   z-index: index($elements, modals); 
+
+   .field {
+      z-index: index($modal-elements, fields);
+   }
+   .form-controls {
+      z-index: index($modal-elements, form-controls);
+   }
+   .error {
+      z-index: index($modal-elements, errors);
+   }
+   .autocomplete-dropdown {
+      z-index: index($modal-elements, autocomplete-dropdown);
+   }
+
+}  
+*/
+
+
+//http://css-tricks.com/handling-z-index/
+/*
+$zindex: (
+  modal     : "9000", 
+  overlay   : "8000",
+  dropdown  : "7000",
+  header    : "6000",
+  footer    : "5000"
+);
+
+.header {
+  z-index: map-get($zindex, header);
+}
+*/
